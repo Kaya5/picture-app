@@ -6,7 +6,7 @@ import spinner from "../assets/spinner.gif";
 
 const api = {
   base: "https://pixabay.com/api/",
-  key: "22668538-30be4bd0e23a11814eaf101fc",
+  key: "",
 };
 const endURL = "&image_type=photo&pretty=true";
 
