@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+
+body{
+    min-width: 100%;
+    min-height: 100%;
+    justify-content: justify;
+  }
+  
+  .id-image{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 30%;
+    height: 100%;
+  }
+  
+  .Image{
+    gap: 1.5%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 50%;
+  }
+  
+  .loader{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  img{
+    width: 450px;
+    margin-bottom: 1%;
+    height: 290px;
+    padding-top: 3%;
+  }
+  
+  
+  .text-data{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Akaya Kanadaka', cursive;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .credits{
+  color: rgb(0, 162, 255) ;
+  }
+
+  .tags{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+  }
+  .search-bar{
+    width: 20%;
+    justify-self: right;
+    display: flex;
+    margin: 0 0 75px;
+    margin-bottom: 3%;
+    margin-left: 75%;
+    margin-top: -2.2%;
+  }
+  
+  .search-box{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: initial;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0 0 16px 16px;
+  margin-top: -25px;
+  font-size: 20px;
+  box-shadow: 0 5px rgba(46, 39, 39, 0.25);
+  transition: 0.5s ease-in;
+  }
+  
+  .search-box::placeholder{
+    color: rgba(21, 89, 167, 0.3);
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .search-box:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  
+  @media screen and (max-width: 999px) {
+    .search-bar{
+      margin-top: -4.2%;
+    }
+  }
